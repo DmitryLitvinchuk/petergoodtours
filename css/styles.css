@@ -1,0 +1,406 @@
+/* CSS Document */
+
+.bg-gradient-1  {
+	background: linear-gradient(#7546c6, #e59a1a);
+}
+
+.bg-image {
+	background-image: url(../img/bg-1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron-background {
+	background-image: url(../img/saint-petersburg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	margin-bottom: 32px;
+}
+
+.btn-primary {
+	background-color: #f5a300;
+	color: white;
+	border: 1px solid transparent;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.btn-primary:hover {
+	border: 1px solid transparent;
+	background-color: #FFBA30;
+}
+
+
+.jumbotron-bullet {
+	background-image: url(../img/saint-petersburg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	margin-bottom: 32px;
+	text-align: right;
+	border-radius: 0px;
+}
+
+.jumbotron-bullet .jumbotron-heading {
+	font-weight: 700;
+}
+
+.jumbotron-bullet .jumbotron-lead {
+	width: auto;
+	padding: 5px;
+	font-weight: 200;
+	background: linear-gradient(to left, #7546c6 0%, #e59a1a 100%);
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+.text-purple {
+	color: #633da8;
+}
+
+.card {
+	border-width: 0px;
+}
+
+.card-text {
+	line-height: 1.2;
+}
+
+.bg-gray {
+	background-color: #818181;
+}
+
+.bg-lightgray {
+	background-color: #d8d9dd;
+}
+
+.bg-black {
+	background-color: black;
+}
+
+.btn-circle.btn-xl {
+    width: 50px;
+    height: 50px;
+    padding: 8px 12px 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    line-height: 1.38;
+}
+
+.btn-circle {
+	color: white;
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.btn-facebook {
+	background-color: #6d85b4;
+}
+
+.btn-facebook:hover {
+	background-color: #8397BF;
+}
+
+.btn-instagram {
+	background-color: #f05d4a;
+}
+
+.btn-instagram:hover {
+	background-color: #F16E5D;
+}
+
+.btn-twitter {
+	background-color: #88bee1;
+}
+
+.btn-twitter:hover {
+	background-color: #5696C0;
+}
+
+.btn-gradient-1 {
+	background: linear-gradient(135deg,#7546c6 0%, #e59a1a 70%);
+}
+
+.btn-gradient-2 {
+	background: linear-gradient(135deg,#e2b76c 0%, #b48d48 70%);
+	opacity: 0.85;
+}
+
+.btn-gradient-2:hover {
+	background: linear-gradient(135deg,#e2b76c 0%, #b48d48 70%);
+	opacity: 1;
+}
+
+.navbar a {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #888888;
+}
+
+.navbar a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.nav-tabs {
+	color: white;
+	/*border-bottom: 10px solid #764cc2;*/
+}
+
+.nav-tabs .nav-link {
+	border: 0px solid transparent;
+	color: white;
+	background-color: #9a999e;
+	-webkit-clip-path: polygon(5% 0%, 95% 0%, 100% 100%, 0% 100%);
+	clip-path: polygon(5% 0%, 95% 0%, 100% 100%, 0% 100%);
+	font-size: 12px;
+}
+
+.nav-tabs .nav-link:hover {
+	background-color: #624696;
+}
+
+.nav-tabs .nav-link.active {
+	border: 0px solid transparent;
+	color: white;
+	background-color: #764cc2;
+}
+
+.nav-tabs .nav-link-promociones {
+	background: linear-gradient(135deg,#7546c6 0%, #e59a1a 70%);
+	opacity: 0.85;
+}
+
+.nav-tabs .nav-link-premium {
+	background: linear-gradient(135deg,#e2b76c 0%, #b48d48 70%);
+	opacity: 0.85;
+}
+
+.nav-tabs .nav-link-standart {
+	background-color: #f5a300;
+	opacity: 0.85;
+}
+
+.nav-tabs .nav-link-promociones:hover,  .nav-tabs .nav-link-promociones.active{
+	background: linear-gradient(135deg,#7546c6 0%, #e59a1a 70%);
+	opacity: 1;
+}
+
+.nav-tabs .nav-link-standart:hover, .nav-tabs .nav-link-standart.active {
+	background-color: #f5a300;
+	opacity: 1;
+}
+
+.nav-tabs .nav-link-premium:hover, .nav-tabs .nav-link-premium.active {
+	background: linear-gradient(135deg,#e2b76c 0%, #b48d48 70%);
+	opacity: 1;
+}
+
+.tab-pane {
+	background-color: #edeef0;
+}
+
+.card-accordion.card {
+	background-color: transparent;
+	border-bottom: 1px solid black;
+	border-radius: 0px;
+}
+
+.card-accordion.card .card-header {
+	background-color: transparent;
+	border: 0px;
+	
+}
+
+.card-accordion.card .card-header button, .card-accordion.card .card-header button:focus {
+	text-transform: uppercase;
+	color: #744bc2;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.card-accordion.card .card-header button:hover {
+	text-decoration: none;
+	color: #834FE4;
+}
+
+.card-accordion.card .card-body {
+	padding-top: 0px;
+}
+
+.bb-0 {
+	border-bottom: 0px;
+}
+
+.bb-1 {
+	border-bottom: 1px solid #C0C0C0;
+}
+
+.card-header-gradient {
+	background: linear-gradient(135deg,#7546c6 0%, #e59a1a 70%);
+}
+
+.btn-line {
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+}
+
+.btn-line:hover {
+	background-color: white;
+	color: black;
+}
+
+.nav-gradient .nav-link {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	color: #834FE4;
+	border: 1px solid #633da8;
+	margin: 0px 5px;
+}
+
+.nav-gradient .nav-link:hover {
+	background-color: #633da8;
+	color: white;
+}
+
+.nav-gradient a.nav-link.active {
+	background-color: #633da8;
+	color: white;
+}
+
+.text-gradient {
+	background: linear-gradient(135deg,#7546c6 0%, #e59a1a 70%);
+	color: white;
+	padding: 8px 5px;
+	text-align: center;
+}
+
+.br-1 {
+	border-right: 1px solid #939393;
+}
+
+.card-dark {
+	color: white;
+}
+
+.card-dark .card-body{
+	background-color: #262626;
+}
+
+.card-gradient {
+	color: white;
+}
+
+.card-gradient .card-body{
+	background: linear-gradient(135deg, #e59a1a 0%, #7546c6 70%);
+}
