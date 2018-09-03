@@ -404,3 +404,27 @@ body {
 .card-gradient .card-body{
 	background: linear-gradient(135deg, #e59a1a 0%, #7546c6 70%);
 }
+
+.card-img-left {
+	border-radius: 5px 0px 0px 5px;
+}
+
+.card-match {
+	background-color: #ededed;
+}
+
+.card-match h3 a {
+	-webkit-transition: all 0.2s; /* Safari */
+    transition: all 0.2s;
+}
+
+.card-match h3 a:hover {
+	-webkit-transition: all 0.2s; /* Safari */
+    transition: all 0.2s;
+	text-decoration: none;
+	color: #f5a300;
+}
+
+.bg-primary {
+	background-color: #f5a300 !important;
+}
